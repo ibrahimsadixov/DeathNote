@@ -1,0 +1,142 @@
+@media screen and (max-width:1000px) {
+    .homeText h1 {
+        font-size: 1rem !important;
+      }
+      .homeText p {
+        font-size: .8rem !important;
+      }
+      .homeText h2 {
+        font-size: 1rem !important;
+      }
+  
+      .homeText h3 {
+        font-size: 1rem !important;
+      }
+
+
+}
+
+@media screen and (max-width:680px) {
+    .menu-btn-1 {
+        display: flex !important;
+    }
+    .navContainer ul{
+        display: none;
+    }
+   
+}
+
+
+
+@media screen and (max-width:920px) {
+  .person .main{
+    width: 40% !important;
+
+}
+.person .personImg{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.person .personImg img{
+    height: 80%;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: .3s;
+    transform-origin: bottom center;
+}
+.person .details {
+    color: white;
+    width: 60% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+    padding: 15px 10px 15px 10px;
+
+}
+    
+}
+
+
+
+
+@media screen and (max-width:560px) {
+
+  .homeText li{
+    font-size: .6rem !important;
+}
+
+  .homeBg{
+
+    width:60% !important;
+    background-image: url(/assets/images/716ASj7z2GL._AC_UF1000\,1000_QL80_.jpg);
+    background-size: 60% 100% !important;
+
+}
+
+.homeText{
+
+  width:40% !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .person .personImg{
+    height: 100%;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapper{
+  height: 400px !important;
+}
+
+.person {
+  flex-direction: column;
+  align-items: center !important;
+
+}
+.person .details {
+  width: 100% !important;
+  height: 70% !important;
+
+}
+.person .main {
+width: 100% !important;
+height: 30% !important;
+}
+.person .main img {
+width: auto!important;
+height: 100% !important;
+}
+  
+}
+

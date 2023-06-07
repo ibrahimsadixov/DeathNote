@@ -1,0 +1,62 @@
+#home{
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+.homeBg{
+    height: auto;
+    width:38%;
+    background-image: url(/assets/images/716ASj7z2GL._AC_UF1000\,1000_QL80_.jpg);
+    background-size: 40% 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     border-right: 10px solid rgb(199, 48, 37);
+     transition: 1.5s ease-in-out;
+     color: rgb(231, 10, 10);
+}
+.homeText{
+    height: auto;
+    width: 59%;
+    background-color: #121212;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeText h1 {
+    font-size: 2rem;
+    position: sticky;
+    width: 100%;
+    background-color: #121212;
+    top: 100px;
+  }
+  .homeText h2 {
+    font-size: 2rem;
+    position: sticky;
+    width: 100%;
+    background-color: #121212;
+  }
+  .homeText h3 {
+    font-size: 2rem;
+    position: sticky;
+    width: 100%;
+    background-color: #121212;
+  }
+  
+  
+.homeText p{
+    font-size: 1.2rem;
+    margin-top: 40px;
+
+}
+.homeText ol li{
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+.homeText ol{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+}

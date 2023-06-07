@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} 
+html::-webkit-scrollbar {
+  
+    background-color: white;
+ 
+  }
+  
+ ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    background-image: url('/assets/images/death_note_apple_by_agentfergus_de999jc-pre.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 1px;
+  }
+  
